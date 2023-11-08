@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bulawayo Nursing Care</title>
+</head>
+<body>
+    <section class="showcase">
+        <header class="header">
+          <h2 class="logo">WELCOME TO BULAWAYO NURSING CARE</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="doctor.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Elite Nursing Care </h2> 
+          <h3></h3>
+<!--           <p>Register with BNC for the following short courses. <br>
+            Dementia Care <br>
+            Pharmacy Assistant <br>
+            HIV/AIDS Counseling <br>
+            Geriatric and Palliative Care <br>
+            Child Minding <br>
+            Sports Medicine <br>
+            #Training open for everyone <br>
+            # Advancing in Health Studies</p> -->
+
+        </div>
+        <ul class="social">
+          <li><a href="https://www.facebook.com/byonursingcare/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <nav>
+      <div class="parent-container">
+        <ul class="buttons">
+          <li><a href="home_care.html" class="bn5">Home Care</a></li>
+          <li><a href="ANS.html" class="bn5">Assistant Nurse Course</a></li>
+          <li><a href="short_courses.html" class="bn5">Short Courses</a></li>
+          <li><a href="About.html" class="bn5">About Us</a></li>
+          <li><a href="gallery.html" class="bn5">Gallery</a></li>
+          <li><a href="contact.html" class="bn5">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    
+    <script>
+         const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+    <div class="image">
+      <img src="img/logo-1-1536x1265.png" alt="Image" height="110px" width="135px">
+    </div>
+    
+</body>
+</html>
