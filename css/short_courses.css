@@ -49,7 +49,7 @@ header {
   nav ul ,
 nav a,
 nav a:visited {
-  color: #1c549c;
+  color: whitesmoke;
   text-decoration: none;
   list-style: none;
   padding: 0.2em;
