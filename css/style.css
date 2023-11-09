@@ -315,8 +315,7 @@ nav a:focus {
 @media screen and (min-width: 481px) {
   .logo
   {
-    padding-bottom: 15rem;
-    font-size: 40px;
+    font-size: 30px;
   }
   .bn5 {
     padding: 0.6em 0.6em;
@@ -328,9 +327,14 @@ nav a:focus {
     
 }
 .text h2{
-  margin-top: 5rem;
-  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
+  .buttons {
+    margin-top: 4rem;
+    flex-direction: column;
+  }
 
 }
 
@@ -388,6 +392,9 @@ nav a:focus {
     justify-content: center;
     align-items: center;
     margin-left: 25rem;
+  }
+  .buttons {
+    diplay: flex;
   }
 }
 
